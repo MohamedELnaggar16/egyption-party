@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sideBar{
+    position: fixed;
+    left: -25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+.sideBar a:hover{
+    color: red !important;
+    transition: all 1s !important;
+}
+#header{
+    height: 100vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover 
+}
+.headerLayer{
+    background-color: rgba(255, 0, 0,0.5);
+}
+h1{
+    font-size: 60px;
+}
+.openIcon{
+   margin-left: 5px;
+}
+.openIcon:hover{
+    cursor: pointer;
+}
+#exitIcon:hover{
+    cursor: pointer;
+    color: red !important;
+    transition: all 1s !important;
+}
+.singerHeader{
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+.paragUp{
+    display: none;
+} 
+#duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+}
+.durDays{
+    border: 3px solid white;
+    text-align: center;
+    padding: 50px;
+}
+.durLayer{
+    background-color: rgba(255, 0, 0,0.5);
+    padding: 50px;
+}
+.icons-social i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+.icons-social i:hover{
+    background-color:#dc3545;
+    color: white;
+}
